@@ -9,8 +9,24 @@ body{
     height: 120px;
     padding: 20px;
 }
-h1{
+/* h1{
     text-align: center;
+} */
+h1,ul,li{
+   
+    display: inline;
+   
+}
+.one{
+    margin-left: 60%;
+    
+}
+li{
+    cursor: pointer;
+    color: black;
+}
+li:hover{
+    color: white;
 }
 
 .bottom{
@@ -23,7 +39,7 @@ h1{
     height: 100%;
     background-color: aqua;
 }
-nav h1 .one{
+/* nav h1 .one{
     border-bottom: white;
     border-width: 2px;
     border-style: solid;
@@ -32,5 +48,5 @@ nav h1 .one{
     margin: 20px;
     display: inline-block;
    
-}
+} */
 
